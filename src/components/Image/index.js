@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightgray',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: '100% 100%'
+    backgroundSize: 'cover'
   },
   img: {
     borderWidth: 0,
@@ -83,7 +83,7 @@ class Image extends React.Component {
   static defaultProps = {
     accessible: true,
     defaultSource: {},
-    resizeMode: 'stretch',
+    resizeMode: 'cover',
     source: {},
     style: styles.initial
   }
